@@ -7,6 +7,7 @@
       "stack-layout#prodsum",
       "product-summary-name#list-name",
       "flex-layout.row#list-price",
+      "price-promo-pix-boleto",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
       "flex-layout.row#actions"

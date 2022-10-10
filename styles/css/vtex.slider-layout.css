@@ -310,3 +310,9 @@
 .sliderLayoutContainer--shelf {
   padding: 0 !important;
 }
+
+/* Preço Pomocional Pix e Boleto */
+
+:global(.vtex-product-summary-2-x-container) :global(.vtex-flex-layout-0-x-flexRowContent--price) {
+  display: none;
+}

@@ -77,6 +77,13 @@
     }
   },
 
+"experimental__visibility-layout#mosaico-meio": {
+  "title": "Mosaico Meio - Modelo 1",
+  "children": [
+    "flex-layout.row#mosaico-meio"
+  ]
+},
+
 "flex-layout.row#mosaico-meio": {
     "title": "Mosaico Meio",
     "children": [
@@ -181,6 +188,173 @@
     }
   },
 
+  "experimental__visibility-layout#mosaico-meio-modelo2": {
+    "title": "Mosaico Meio - Modelo 2",
+    "children": [
+      "flex-layout.row#mosaico-meio-modelo2"
+    ]
+  },
+  
+  "flex-layout.row#mosaico-meio-modelo2": {
+      "title": "Mosaico Meio",
+      "children": [
+        "flex-layout.col#left-mosaico-modelo2",
+        "flex-layout.col#right-mosaico-modelo2"
+      ],
+      "props": {
+        "blockClass": ["mosaico-meio-wrapper", "mosaico-meio-modelo2"]
+      }
+    },
+  
+    "flex-layout.col#left-mosaico-modelo2": {
+      "children": [
+        "image#img-mosaico-left-modelo2"
+      ],
+      "props": {
+        "blockClass": "imagem-mosaico-left"
+      }
+    },
+  
+    "image#img-mosaico-left-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio-left.png"
+      }
+    },
+  
+    "flex-layout.col#right-mosaico-modelo2": {
+      "children": [
+        "flex-layout.row#linha1-topo-modelo2",
+        "flex-layout.row#linha2-bottom-modelo2"
+      ],
+      "props": {
+        "blockClass": "mosaico-right-wrapper"
+      }
+    },
+  
+    "flex-layout.row#linha1-topo-modelo2": {
+      "children":[
+        "flex-layout.col#linha1-col1-topo-modelo2",
+        "flex-layout.col#linha1-col2-topo-modelo2"
+      ],
+      "props": {
+        "blockClass": "linha1-topo"
+      }
+    },
+  
+    "flex-layout.row#linha2-bottom-modelo2": {
+      "children":[
+        "flex-layout.col#linha2-col1-bottom-modelo2",
+        "flex-layout.col#linha2-col2-bottom-modelo2"
+      ],
+      "props": {
+        "blockClass": "linha2-bottom"
+      }
+    },
+  
+    "flex-layout.col#linha1-col1-topo-modelo2": {
+      "children":[
+        "image#img-mosaico-right1-modelo2"
+      ]
+    },
+  
+    "flex-layout.col#linha1-col2-topo-modelo2": {
+      "children":[
+        "image#img-mosaico-right2-modelo2"
+      ]
+    },
+  
+    "flex-layout.col#linha2-col1-bottom-modelo2": {
+      "children":[
+        "image#img-mosaico-right3-modelo2"
+      ]
+    },
+  
+    "flex-layout.col#linha2-col2-bottom-modelo2": {
+      "children":[
+        "image#img-mosaico-right4-modelo2"
+      ]
+    },
+  
+    "image#img-mosaico-right1-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio-right.png"
+      }
+    },
+  
+    "image#img-mosaico-right2-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio-right2.png"
+      }
+    },
+  
+    "image#img-mosaico-right3-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio-right.png"
+      }
+    },
+  
+    "image#img-mosaico-right4-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio-right2.png"
+      }
+    },
+  
+    "experimental__visibility-layout#mosaico-meio-modelo3": {
+      "title": "Mosaico Meio - Modelo 3",
+      "children": [
+        "flex-layout.row#mosaico-meio-modelo3"
+      ]
+    },
+
+  "flex-layout.row#mosaico-meio-modelo3": {
+    "children": [
+      "flex-layout.col#col1-mosaico-meio-modelo3",
+      "flex-layout.col#col2-mosaico-meio-modelo3",
+      "flex-layout.col#col3-mosaico-meio-modelo3"
+    ],
+    "props": {
+      "blockClass": "mosaico-meio-wrapper-modelo3"
+    }
+  },
+
+  "flex-layout.col#col1-mosaico-meio-modelo3": {
+    "children":[
+      "image#img1-mosaico-meio-modelo3"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+
+  "flex-layout.col#col2-mosaico-meio-modelo3": {
+    "children":[
+      "image#img2-mosaico-meio-modelo3"
+    ]
+  },
+
+  "flex-layout.col#col3-mosaico-meio-modelo3": {
+    "children":[
+      "image#img3-mosaico-meio-modelo3"
+    ]
+  },
+
+  "image#img1-mosaico-meio-modelo3": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaicomeio-3-1.png"
+    }
+  },
+
+  "image#img2-mosaico-meio-modelo3": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaicomeio-3-2.png"
+    }
+  },
+
+  "image#img3-mosaico-meio-modelo3": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaicomeio-3-3.png"
+    }
+  },
 
   "flex-layout.row#mosaico-meio2": {
     "title": "Mosaico Meio 2",

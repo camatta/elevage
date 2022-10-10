@@ -92,7 +92,7 @@
 
 :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-styleguide-9-x-input) {
   font-size: 14px;
-  color: #D0D0D0;
+  color: #323232;
 }
 
 :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-styleguide-9-x-input)::placeholder {

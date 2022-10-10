@@ -181,7 +181,8 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#category_desc"
     ],
     "props": {
       "pagination": "show-more",
@@ -193,7 +194,9 @@
     }
   },
   "flex-layout.row#contentmobile": {
-    "children": ["search-content"],
+    "children": [
+      "search-content"
+  ],
     "props": {
       "preserveLayoutOnMobile": true
     }

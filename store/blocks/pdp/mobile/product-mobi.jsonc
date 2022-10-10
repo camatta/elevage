@@ -137,7 +137,7 @@
   "flex-layout.col#sliding-down-mobi": {
     "children": [
       "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
+      "price-promo-pix-boleto",
       "product-installments",
       "sku-selector",
       "product-assembly-options",

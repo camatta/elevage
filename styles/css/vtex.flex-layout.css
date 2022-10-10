@@ -181,6 +181,27 @@
   max-width: 90px;
 }
 
+.flexRowContent--mosaico-meio-modelo2 .flexColChild--mosaico-right-wrapper {
+  line-height: 0;
+}
+
+.flexRowContent--mosaico-meio-modelo2 .flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
+  width: 100%;
+}
+
+.flexRowContent--mosaico-meio-modelo2 .flexRow--linha2-bottom {
+  position: relative;
+  top: 0;
+}
+
+.flexRowContent--mosaico-meio-modelo2 .flexColChild--mosaico-right-wrapper .flexColChild {
+  overflow: hidden;
+}
+
+.flexRow--mosaico-meio-wrapper-modelo3 {
+  margin-top: 2rem;
+}
+
 /* .flexColChild--wrapper__button-buy :global(.botao-comprar) {
   display: none;
 } */
@@ -370,6 +391,19 @@
 
 .flexRowContent--row-list-price {
   height: 20px;
+}
+
+.flexRow--mosaico-meio-wrapper-modelo3 :global(.vtex-store-components-3-x-imageElement) {
+  width: 100%;
+  height: 100%;
+}
+
+.flexRowContent--mosaico-meio-wrapper-modelo3 .stretchChildrenWidth {
+  padding-left: 1rem;
+}
+
+.flexRowContent--mosaico-meio-wrapper-modelo3 .stretchChildrenWidth:first-child {
+  padding-left: 0;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 500px) {

@@ -27,6 +27,10 @@
         "component": "Lele"
     },
 
+    "price-promo-pix-boleto": {
+        "component": "PromoPixBoleto"
+    },
+
     "product-name-sku": {
         "component": "ProductNameSku"
     }

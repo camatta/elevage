@@ -88,5 +88,9 @@
     padding: 0 .3rem;
   }
 
+  .flexCol--category-name {
+    min-height: 110px;
+  }
+
 }
 
