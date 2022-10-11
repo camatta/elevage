@@ -77,6 +77,28 @@
   background-size: cover;
 }
 
+.departmentList .itemContainer--department:nth-child(2n) .itemContainer--category::before {
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-maquinas.jpeg);
+}
+
+
+.departmentList .itemContainer--department:nth-child(4n) .itemContainer--category::before {
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-secadores.jpeg);
+}
+
+.departmentList .itemContainer--department:nth-child(5n) .itemContainer--category::before {
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-tesouras.jpeg);
+}
+
+.departmentList .itemContainer--department:nth-child(6n) .itemContainer--category::before {
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-pecas.jpeg);
+}
+
+.departmentList .itemContainer--department:nth-child(7n) .itemContainer--category::before {
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-acessorios.jpeg);
+}
+
+
 .itemContainer--department:nth-child(7n) .itemContainer--category::before {
   right: unset;
   left: -250px;
@@ -209,6 +231,10 @@
     margin-right: 0.3rem;
     margin-left: 0.3rem;
     font-size: 11px;
+  }
+
+  .itemContainer--category {
+    width: 570px;
   }
 
   .departmentList .itemContainer:first-child .departmentLink::after {

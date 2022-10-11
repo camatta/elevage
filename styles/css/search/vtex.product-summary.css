@@ -35,5 +35,5 @@
   transition: all .3s linear;
 }
 :global(.vtex-product-summary-2-x-containerNormal):hover{
-  background-color: #EEEEEE;
+  box-shadow: 0px 3px 10px #00000029;
 }

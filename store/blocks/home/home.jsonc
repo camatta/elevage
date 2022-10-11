@@ -61,7 +61,12 @@
       "arrowSize": 12,
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": ["carousel", "banner-principal"]
+      "blockClass": ["carousel", "banner-principal"],
+      "autoplay":
+      {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
     }
   },
 

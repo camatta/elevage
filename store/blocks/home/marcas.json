@@ -34,7 +34,7 @@
     }
   },
   "slider-layout#marcas": {
-    "children": ["flex-layout.col#imagemmarcas", "flex-layout.col#imagemmarcas2", "flex-layout.col#imagemmarcas3"],
+    "children": ["flex-layout.col#imagemmarcas", "flex-layout.col#imagemmarcas2", "flex-layout.col#imagemmarcas3","flex-layout.col#imagemmarcas4"],
     "props": {
         "blockClass": "slidermarcas",
         "autoplay": {
