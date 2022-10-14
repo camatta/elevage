@@ -65,7 +65,7 @@
       "flex-layout.row#result"
     ],
     "props": {
-      "pagination": "show-more",
+      "pagination": "infiniteScroll",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid"
     }
@@ -185,7 +185,7 @@
       "flex-layout.row#category_desc"
     ],
     "props": {
-      "pagination": "show-more",
+      "pagination": "infiniteScroll",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"

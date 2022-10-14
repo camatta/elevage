@@ -1,0 +1,7 @@
+:global(.frame-rastreio .frame) {
+  width: 100%;
+  height: 110vh;
+  border: unset;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

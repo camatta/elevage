@@ -33,5 +33,9 @@
 
     "product-name-sku": {
         "component": "ProductNameSku"
+    },
+
+    "rastreio-datafrete": {
+        "component": "Rastreio"
     }
 }

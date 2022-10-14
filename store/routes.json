@@ -40,5 +40,8 @@
   },
   "store.custom#frete": {
     "path": "/frete"
+  },
+  "store.custom#rastreio": {
+    "path": "/rastreio"
   }
 }

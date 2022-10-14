@@ -1,0 +1,13 @@
+{
+  "store.custom#rastreio": {
+    "children": [
+      "flex-layout.row#wrapper-rastreio"
+    ]
+  },
+
+  "flex-layout.row#wrapper-rastreio": {
+    "children": [
+      "rastreio-datafrete"
+    ]
+  }
+}
