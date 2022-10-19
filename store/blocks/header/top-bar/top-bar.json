@@ -6,11 +6,19 @@
       "blockClass": "wrapper-topbar"
     },
     "children": [
-      "rich-text#text-frete-gratis",
-      "rich-text#text-parcelamento",
-      "rich-text#text-fidelidade",
-      "link#text-rastreio"
+      "flex-layout.col#frete-box",
+      "flex-layout.col#parcelamento",
+      "flex-layout.col#rastreio"
     ]
+  },
+  "flex-layout.col#frete-box": {
+    "children": ["rich-text#text-frete-gratis"]
+  },
+  "flex-layout.col#parcelamento": {
+    "children": ["rich-text#text-parcelamento"]
+  },
+  "flex-layout.col#rastreio": {
+    "children": ["rich-text#text-rastreio"]
   },
 
   "rich-text#text-frete-gratis": {
@@ -27,19 +35,12 @@
     }
   },
 
-  "rich-text#text-fidelidade": {
-    "props": {
-      "blockClass": "text-topbar",
-      "text": "Programa de **fidelidade**"
-    }
-  },
 
-  "link#text-rastreio": {
+
+  "rich-text#text-rastreio": {
     "props": {
-      "blockClass": ["text-topbar","last-item-topbar"],
-      "label": "Rastreie o seu pedido",
-      "href": "https://rastreamento.correios.com.br/app/index.php",
-      "target": "_blank"
+      "blockClass": ["text-topbar","link-rastreio"],
+      "text": "[Rastreie seu pedido](/rastreio)"
     }
   }
 

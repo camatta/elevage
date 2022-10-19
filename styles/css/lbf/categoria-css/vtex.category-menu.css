@@ -1,0 +1,7 @@
+.itemContainer--category::after {
+  width: 291px;
+    height: 66px;
+    bottom: 0rem;
+    background-size: 100%;
+    background-image: url(assets/imgs/categoria/novo-fundologomenu.svg);
+}

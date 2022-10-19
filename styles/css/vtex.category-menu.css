@@ -78,24 +78,27 @@
 }
 
 .departmentList .itemContainer--department:nth-child(2n) .itemContainer--category::before {
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-maquinas.jpeg);
+  background-image: url(assets/imgs/categoria/banner-maquinas-de-tosa.jpg);
 }
 
+.departmentList .itemContainer--department:nth-child(3n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/banner-laminas-de-tosa.jpg);
+}
 
 .departmentList .itemContainer--department:nth-child(4n) .itemContainer--category::before {
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-secadores.jpeg);
+  background-image: url(assets/imgs/categoria/banner-secadores-e-sopradores.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(5n) .itemContainer--category::before {
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-tesouras.jpeg);
+  background-image: url(assets/imgs/categoria/banner-tesouras-de-tosa.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(6n) .itemContainer--category::before {
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-pecas.jpeg);
+  background-image: url(assets/imgs/categoria/banner-pecas-e-acessorios.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(7n) .itemContainer--category::before {
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/7.0.15/imgs/header/bg-acessorios.jpeg);
+  background-image: url(assets/imgs/categoria/banner-acessorios-para-escovacao.jpg);
 }
 
 
