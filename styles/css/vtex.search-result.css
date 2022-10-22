@@ -17,6 +17,12 @@
   align-self: center
 }
 
+:global(.vtex-search-result-3-x-buttonShowMore--layout) :global(.vtex-button) {
+  padding: 10px 20px;
+  background-color: #002D71 !important;
+  border-radius: 10px;
+}
+
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }

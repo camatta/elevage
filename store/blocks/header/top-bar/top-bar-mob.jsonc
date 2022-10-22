@@ -13,7 +13,8 @@
   "slider-layout#top-mobile": {
     "children": [
       "rich-text#text-frete-gratis-mobile",
-      "rich-text#text-parcelamento-mobile"
+      "rich-text#text-parcelamento-mobile",
+      "rich-text#text-rastreio-mobile"
   ],
     "props": {
         "blockClass": "topbarmob",
@@ -45,6 +46,12 @@
     "props": {
       "blockClass": "text-topbar__mobile",
       "text": "Parcelamento em até **10x sem juros**"
+    }
+  },
+  "rich-text#text-rastreio-mobile": {
+    "props": {
+      "blockClass": ["text-topbar","link-rastreio"],
+      "text": "[Rastreie seu pedido](/rastreio)"
     }
   }
 }
