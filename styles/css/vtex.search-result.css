@@ -18,7 +18,7 @@
 }
 
 :global(.vtex-search-result-3-x-buttonShowMore--layout) :global(.vtex-button) {
-  padding: 10px 20px;
+  padding: 3px 12px;
   background-color: rgb(72, 1, 97) !important;
   border-radius: 10px;
   border-color: transparent;
