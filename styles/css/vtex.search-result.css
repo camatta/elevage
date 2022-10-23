@@ -21,6 +21,7 @@
   padding: 10px 20px;
   background-color: rgb(72, 1, 97) !important;
   border-radius: 10px;
+  border-color: transparent;
 }
 
 .galleryItem--list {
