@@ -19,6 +19,17 @@
   margin: 0;
 }
 
+.headingLevel2--category-description {
+  font-size: 15px;
+  margin-top: 2rem;
+}
+
+.headingLevel3--category-description,
+.headingLevel4--category-description {
+  font-size: 14px;
+  margin-top: 2rem;
+}
+
 .paragraph--category-description{
   font: normal normal 400 10px/17px Montserrat;
   letter-spacing: 0px;

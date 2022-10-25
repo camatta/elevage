@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -17,7 +18,8 @@
         "hideUnavailableItems": true,
         "maxItemsPerPage": 10,
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -27,7 +29,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -37,7 +40,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -47,7 +51,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -356,7 +361,7 @@
   "rich-text#categ-name":{
     "title": "Nome da Categoria",
     "props": {
-      "text": "### Sobre a Elevage",
+      "text": "# Sobre a Elevage",
       "textAlignment": "CENTER",
       "blockClass":  "category-name",
       "textColor": "white"

@@ -1,3 +1,10 @@
+/* CATEGORIA */
+.heading--category-name{
+  color: #fff;
+  margin: 0;
+  font-size: 32px;
+}
+
 @media (max-width: 991px) {
 
   .paragraph--text-topbar__mobile {
@@ -51,6 +58,10 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 1.5rem;
+}
+
+.paragraph--category-description {
+  text-align: justify;
 }
 
 }

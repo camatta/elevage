@@ -106,12 +106,11 @@
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
-      "flex-layout.row#2-mobile",
       "flex-layout.row#top-barmobile"
     ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
 
   "flex-layout.row#1-mobile":{

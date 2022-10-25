@@ -3,6 +3,11 @@
   overflow: hidden;
 }
 
+:global(.vtex-product-summary-2-x-nameWrapper--minicart-related-name) {
+  height: 70px;
+  overflow: hidden;
+}
+
 @media (max-width: 428px) {
   :global(.vtex-product-summary-2-x-productNameContainer) {
     height: 58px;
