@@ -1,0 +1,13 @@
+.productGiftsContainer :global(.vtex-modal-layout-0-x-triggerContainer--product-gifts ){
+  display: none;
+}
+
+.giftListItem :global(.vtex-flex-layout-0-x-flexRowContent) {
+  flex-direction: column-reverse;
+}
+
+.giftListItem :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  justify-content: flex-start;
+  padding-right: 0;
+}
