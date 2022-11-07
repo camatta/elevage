@@ -25,6 +25,13 @@
     height: 10px;
     overflow: hidden;
   }
+
+  :global(.vtex-product-price-1-x-installments--pdp-parcelado) {
+    height: auto;
+    overflow: unset;
+    margin-bottom: 0px;
+    padding-left: 0 !important;
+  }
 }
 
 :global(.vtex-product-price-1-x-installments--summary)::before {
