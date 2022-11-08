@@ -4,7 +4,8 @@
       "maxItems": 3
     },
     "blocks": ["product-summary.shelf#minicart"],
-    "children": ["flex-layout.col#minicart-related-container"]
+    "children": ["flex-layout.col#minicart-related-container"],
+    "title": "Produtos Relacionados"
   },
 
   "flex-layout.col#minicart-related-container": {
