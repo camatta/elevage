@@ -10,7 +10,8 @@
       "flex-layout.row#top-bar",
       "sticky-layout#4-desktop",
       "flex-layout.row#2-desktop",
-      "flex-layout.row#lele-contact"
+      "flex-layout.row#lele-contact",
+      "helmet-rd"
     ]
   },
 
