@@ -2,6 +2,8 @@ import React from 'react';
 import { FormattedCurrency } from 'vtex.format-currency'
 
 import * as Styled from './styles';
+import "./cupom.css";
+
 import {
     MinicartCouponContext,
     MinicartCouponProvider,
