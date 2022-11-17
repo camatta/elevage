@@ -75,6 +75,17 @@ const MinicartCoupon = () => {
                                 </>
                             )}
                         </Styled.Container>
+                        {context.state.codeReturn && (
+                            <Styled.Message
+                                error={
+                                    context.state.codeReturn.error
+                                        ? true
+                                        : false
+                                }
+                            >
+                                {context.state.codeReturn.message}
+                            </Styled.Message>
+                        )}
                     </Styled.Wrapper>
                 )}
             </MinicartCouponContext.Consumer>
