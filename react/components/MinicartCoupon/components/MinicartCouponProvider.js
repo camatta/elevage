@@ -8,6 +8,7 @@ const MinicartCouponContext = createContext();
 const MinicartCouponProvider = ({ children }) => {
     const [state, setState] = useState({
         coupon: '',
+        discountValue: 0,
         loading: false,
         codeReturn: {
             success: false,
@@ -33,6 +34,7 @@ const MinicartCouponProvider = ({ children }) => {
             return setState({
                 loading: false,
                 coupon: '',
+                discountValue: 0,
                 codeReturn: {
                     success: false,
                     error: true,
@@ -46,7 +48,7 @@ const MinicartCouponProvider = ({ children }) => {
                 { coupon }
             )
             .then(({ data }) => {
-                const { messages, marketingData } = data;
+                const { messages, marketingData, totalizers } = data;
                 const error = messages.filter(
                     ({ status }) => status === 'warning'
                 );
@@ -55,6 +57,7 @@ const MinicartCouponProvider = ({ children }) => {
                     setState({
                         loading: false,
                         coupon: '',
+                        discountValue: 0,
                         codeReturn: {
                             success: false,
                             error: true,
@@ -63,8 +66,15 @@ const MinicartCouponProvider = ({ children }) => {
                     });
                 }
                 if (marketingData.coupon === coupon) {
+                    let discountValueToShow = 0;
+
+                    if(typeof totalizers[1].value === 'number') {
+                        discountValueToShow = totalizers[1].value;
+                    }
+
                     setState({
                         loading: false,
+                        discountValue: discountValueToShow,
                         codeReturn: {
                             success: true,
                             error: false,
