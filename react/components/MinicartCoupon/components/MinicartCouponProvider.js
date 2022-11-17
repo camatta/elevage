@@ -46,7 +46,7 @@ const MinicartCouponProvider = ({ children }) => {
                 { coupon }
             )
             .then(({ data }) => {
-                const { messages, marketingData, totalizers } = data;
+                const { messages, marketingData } = data;
                 const error = messages.filter(
                     ({ status }) => status === 'warning'
                 );
@@ -63,15 +63,8 @@ const MinicartCouponProvider = ({ children }) => {
                     });
                 }
                 if (marketingData.coupon === coupon) {
-                    let discountValueToShow = 0;
-
-                    if(totalizers[1].value && typeof totalizers[1].value === 'number') {
-                        discountValueToShow = totalizers[1].value;
-                    }
-
                     setState({
                         loading: false,
-                        discountValue: discountValueToShow,
                         codeReturn: {
                             success: true,
                             error: false,
