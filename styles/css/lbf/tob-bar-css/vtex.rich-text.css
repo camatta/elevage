@@ -1,3 +1,7 @@
 .wrapper--link-rastreio .paragraph--text-topbar .link--text-topbar {
   color: #fff;
 }
+
+.wrapper--last-item .paragraph--text-topbar .link--last-item {
+  color: #fff;
+}
