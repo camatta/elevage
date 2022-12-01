@@ -94,9 +94,15 @@
 }
 
 .searchResultContainer  .buttonShowMore--layout:last-child {
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .searchResultContainer  .buttonShowMore--layout :global(.vtex-button) {
     text-transform: initial;
+}
+
+.showingProducts {
+    color: #292929;
+    list-height: 1.5;
+    padding-top: 0;
 }

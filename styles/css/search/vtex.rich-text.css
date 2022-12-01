@@ -35,3 +35,10 @@
   letter-spacing: 0px;
   color: #292929;
 }
+
+.wrapper--label-barra-produtos .paragraph {
+  font-size: 14px;
+  margin: 0;
+  color: #292929;
+  margin-left: 0.3rem;
+}

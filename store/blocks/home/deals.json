@@ -72,7 +72,8 @@
       "image#deal1"
     ],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "wrapper-img-deals"
     }
   },
   "flex-layout.col#col-textdeal1": {
@@ -114,7 +115,8 @@
       "image#deal2"
     ],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "wrapper-img-deals"
     }
   },
   "flex-layout.col#col-textdeal2": {
@@ -156,7 +158,8 @@
       "image#deal3"
     ],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "wrapper-img-deals"
     }
   },
   "flex-layout.col#col-textdeal3": {
@@ -198,7 +201,8 @@
       "image#deal4"
     ],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "wrapper-img-deals"
     }
   },
   "flex-layout.col#col-textdeal4": {
@@ -240,7 +244,8 @@
       "image#deal5"
     ],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "wrapper-img-deals"
     }
   },
   "flex-layout.col#col-textdeal5": {
@@ -282,7 +287,8 @@
       "image#deal6"
     ],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "wrapper-img-deals"
     }
   },
   "flex-layout.col#col-textdeal6": {

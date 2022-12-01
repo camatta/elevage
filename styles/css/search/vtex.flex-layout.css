@@ -82,6 +82,21 @@
   padding: 16px 60px;
 }
 
+.flexRowContent--total-produtos {
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.flexRowContent--total-produtos .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRowContent--barra-total-produtos :global(.vtex-search-result-3-x-progressBar) {
+  width: 230px !important;
+}
+
 @media screen and (max-width: 991px){
   .flexRowContent--buttons_buy{
       flex-direction: column;

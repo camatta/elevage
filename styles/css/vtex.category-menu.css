@@ -31,6 +31,10 @@
   padding-top: 1rem;
   border: unset;
   z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition:visibility 0.4s linear,opacity 0.4s linear;
+  display: flex !important;
 }
 
 .itemContainer--department:nth-child(5n) .itemContainer--category,
@@ -264,4 +268,9 @@
   }
 
 
+}
+
+.itemContainer--department:hover .itemContainer {
+  visibility: visible;
+  opacity: 1;
 }

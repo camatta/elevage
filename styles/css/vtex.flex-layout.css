@@ -84,7 +84,7 @@
   height: 70px;
   background: #00000029;
   position: absolute;
-  left: 34%;
+  left: 30%;
   top: 50%;
   -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
@@ -107,7 +107,7 @@
 
 
 .flexRowContent--deals {
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .flexRowContent--box-deal {
@@ -404,6 +404,24 @@
 
 .flexRowContent--mosaico-meio-wrapper-modelo3 .stretchChildrenWidth:first-child {
   padding-left: 0;
+}
+
+.flexRowContent--deals .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRowContent--deals .flexCol--wrapper-deal {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 240px;
+}
+
+.flexColChild--wrapper-img-deals {
+  width: 38px;
+}
+
+.flexColChild--wrapper-img-deals :global(.vtex-store-components-3-x-imageElement) {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 500px) {

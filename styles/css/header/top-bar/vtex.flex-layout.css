@@ -5,5 +5,14 @@
 .flexRowContent--wrapper-topbar {
   max-width: 1050px;
   margin: auto;
+  justify-content: center;
+}
+
+.flexRowContent--wrapper-topbar .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRowContent--wrapper-topbar .stretchChildrenWidth .flexCol {
+  margin: 0 3rem;
 }
 
