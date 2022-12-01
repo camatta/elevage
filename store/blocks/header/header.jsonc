@@ -7,7 +7,7 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#top-bar",
+      "experimental__visibility-layout#top-bar",
       "sticky-layout#4-desktop",
       "flex-layout.row#2-desktop",
       "flex-layout.row#lele-contact",

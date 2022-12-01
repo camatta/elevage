@@ -1,27 +1,53 @@
 {
+  "experimental__visibility-layout#top-bar": {
+    "title": "Benefícios - Topo",
+    "children": ["flex-layout.row#top-bar"]
+  },
 
   "flex-layout.row#top-bar": {
-    "title": "Informações Topo",
+    "children": [
+      "experimental__visibility-layout#col-frete-bar",
+      "experimental__visibility-layout#col-parcelamento-bar",
+      "experimental__visibility-layout#col-rastreio-bar"
+    ],
     "props": {
       "blockClass": "wrapper-topbar"
-    },
-    "children": [
-      "flex-layout.col#frete-box",
-      "flex-layout.col#parcelamento",
-      "flex-layout.col#rastreio"
-    ]
-  },
-  "flex-layout.col#frete-box": {
-    "children": ["rich-text#text-frete-gratis"]
-  },
-  "flex-layout.col#parcelamento": {
-    "children": ["rich-text#text-parcelamento"]
-  },
-  "flex-layout.col#rastreio": {
-    "children": ["rich-text#text-rastreio"]
+    }
+
   },
 
+  "experimental__visibility-layout#col-frete-bar": {
+    "children":["flex-layout.col#frete-bar"]
+  },
+
+  "experimental__visibility-layout#col-parcelamento-bar": {
+    "children":["flex-layout.col#parcelamento-bar"]
+  },
+
+  "experimental__visibility-layout#col-rastreio-bar": {
+    "children":["flex-layout.col#rastreio-bar"]
+  },
+
+  "flex-layout.col#frete-bar": {
+    "children": [
+      "rich-text#text-frete-gratis"
+    ]
+  },
+  "flex-layout.col#parcelamento-bar": {
+    "children": [
+      "rich-text#text-parcelamento"
+    ]
+  },
+  
+  "flex-layout.col#rastreio-bar": {
+    "children": [
+      "rich-text#text-rastreio"
+    ]
+  },
+
+
   "rich-text#text-frete-gratis": {
+    "title": "Texto 1",
     "props": {
       "blockClass": "text-topbar",
       "text": "**Frete grátis** acima de R$499*"
@@ -29,18 +55,18 @@
   },
 
   "rich-text#text-parcelamento": {
+    "title": "Texto 2",
     "props": {
       "blockClass": "text-topbar",
       "text": "Parcelamento em até **10x sem juros**"
     }
   },
 
-
-
   "rich-text#text-rastreio": {
+    "title": "Texto 3",
     "props": {
-      "blockClass": ["text-topbar","link-rastreio"],
-      "text": "[Rastreie seu pedido](/rastreio)"
+      "text": "[**Rastreie seu pedido**](/rastreio)",
+      "blockClass": ["text-topbar", "last-item"]
     }
   }
 
