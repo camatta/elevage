@@ -6,7 +6,7 @@ const Rastreio = () => {
   return (
     <>
       <div className="frame-rastreio">
-        <iframe className="frame" src="https://www.rastreioelevage.x10.mx/"/>
+        <iframe className="frame" src="https://rastreio.elevage.com.br"/>
       </div>
     </>
   )
