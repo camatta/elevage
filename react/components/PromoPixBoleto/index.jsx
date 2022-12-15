@@ -17,7 +17,19 @@ const PromoPixBoleto = () => {
 
   return (
     <>
-      <div className="precoPixBoleto"><FormattedCurrency value={valorFinal} /><span className="precoAvista">à vista</span></div>
+      <div>
+      {(() => {
+        if (valorFinal == 0) {
+          return (
+            <div></div>
+          )
+        } else {
+          return (
+            <div className={"precoPixBoleto " + valorFinal}><FormattedCurrency value={valorFinal} /><span className="precoAvista">à vista</span></div>
+          )
+        }
+      })()}
+    </div>
     </>
   )
 }
