@@ -1,0 +1,21 @@
+/*  DESCRIÇÃO */
+.flexRow--wrapper__categ-info{
+  margin: 0;
+}
+
+.flexColChild--category-name{
+  height: 106px !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/imgs/categoria/banner-seo-elevage.png) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.flexCol--category-decription{
+  padding: 0px;
+  background-color: transparent;
+}

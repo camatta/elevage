@@ -128,7 +128,8 @@
       "flex-layout.row#total-produtos",
       "flex-layout.row#barra-total-produtos",
       "flex-layout.row#fetchmore",
-      "flex-layout.row#category_desc"
+      "flex-layout.row#category_desc",
+      "flex-layout.row#category_textoseo"
     ],
     "props": {
       "width": "grow",
@@ -201,7 +202,8 @@
       "flex-layout.row#total-produtos",
       "flex-layout.row#barra-total-produtos",
       "flex-layout.row#fetchmore",
-      "flex-layout.row#category_desc"
+      "flex-layout.row#category_desc",
+      "flex-layout.row#category_textoseo"
     ],
     "props": {
       "pagination": "show-more",
@@ -358,18 +360,14 @@
     "props": {
       "blockClass": "wrapper__categ-info"
     },
-    "children": ["flex-layout.col#name", "flex-layout.col#desc"]
+    "children": ["flex-layout.row#nomecategoria"]
+  },
+  "flex-layout.row#nomecategoria": {
+    "children":["flex-layout.col#name"]
   },
   "flex-layout.col#name":{
     "props": {"blockClass": "category-name"},
-    "children": ["image#background", "rich-text#categ-name"]
-  },
-  "image#background":{
-    "props": {
-      "alt": "background",
-      "src": "assets/imgs/categoria/ret.svg",
-      "maxHeight": "186px"
-    }
+    "children": ["rich-text#categ-name"]
   },
   "rich-text#categ-name":{
     "title": "Nome da Categoria",
@@ -381,6 +379,15 @@
     }
   },
 
+  "flex-layout.row#category_textoseo": {
+    "props": {
+      "blockClass": "wrapper__seo-info"
+    },
+    "children": ["flex-layout.row#texto"]
+  },
+  "flex-layout.row#texto": {
+    "children": ["flex-layout.col#desc"]
+  },
   "flex-layout.col#desc":{
     "props": {"blockClass": "category-decription"},
     "children": ["rich-text#categ-desc"]
