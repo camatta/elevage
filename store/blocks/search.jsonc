@@ -361,15 +361,8 @@
     "children": ["flex-layout.col#name", "flex-layout.col#desc"]
   },
   "flex-layout.col#name":{
-    "props": {"blockClass": "category-name"},
-    "children": ["image#background", "rich-text#categ-name"]
-  },
-  "image#background":{
-    "props": {
-      "alt": "background",
-      "src": "assets/imgs/categoria/ret.svg",
-      "maxHeight": "186px"
-    }
+    "props": {"blockClass": "category-name", "width": "100%"},
+    "children": ["rich-text#categ-name"]
   },
   "rich-text#categ-name":{
     "title": "Nome da Categoria",
@@ -382,7 +375,7 @@
   },
 
   "flex-layout.col#desc":{
-    "props": {"blockClass": "category-decription"},
+    "props": {"blockClass": "category-decription", "width": "100%"},
     "children": ["rich-text#categ-desc"]
   },
   "rich-text#categ-desc":{
