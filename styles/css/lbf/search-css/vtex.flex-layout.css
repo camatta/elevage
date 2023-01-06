@@ -17,3 +17,8 @@
   padding: 0px;
   background-color: transparent;
 }
+@media (min-width: 1200px) {
+  .flexRowContent--wrapper__categ-info {
+    margin: 64px 14px;
+  }
+}
