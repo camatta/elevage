@@ -46,7 +46,7 @@
 @media (max-width: 428px) {
 
   .sliderText {
-    font-size: 12px;
+    font-size: 10px;
   }
 
 }
@@ -55,7 +55,7 @@
 @media (max-width: 404px) {
 
   .sliderText {
-    font-size: 11px;
+    font-size: 7px;
   }
 
 }
