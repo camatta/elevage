@@ -34,5 +34,6 @@
   .flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement),
   .flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
     height: auto;
+    overflow: visible;
   }
 }

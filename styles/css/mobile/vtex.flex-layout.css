@@ -5,7 +5,7 @@
     display: flex;
   }
 
-  
+
 }
 
 @media (max-width: 428px) {
@@ -80,9 +80,7 @@
     width: 100%;
   }
 
-  .flexColChild--imagem-mosaico-left {
-    line-height: 0;
-  }
+
 
   .flexRowContent--area-sobre {
     padding: 0 .3rem;
