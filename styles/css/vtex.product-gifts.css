@@ -1,3 +1,6 @@
 .productGiftText--default {
   cursor: pointer;
 }
+.giftDescription {
+  display: none;
+}
