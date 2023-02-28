@@ -36,6 +36,12 @@
     ]
   },
 
+    "add-to-list-btn": {
+      "props": {
+        "toastURL": "/wishlist"
+      }
+    },
+
   "product-summary-image#shelf": {
     "props": {
       "showBadge": true,
