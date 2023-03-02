@@ -8,13 +8,13 @@
 
 }
 
-@media (max-width: 428px) {
+@media (max-width: 575px) {
   .flexColChild--col-selos-footer {
     text-align: center;
   }
 
   .flexCol--copyimg {
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .flexRowContent--wrapper-title-grid {

@@ -18,7 +18,7 @@
 
 }
 
-@media (max-width: 428px) {
+@media (max-width: 575px) {
   .paragraph--frete {
     width: 100%
   }
@@ -87,7 +87,7 @@
     left: -1rem;
     top: 2%;
   }
-  
+
 }
 
 @media (max-width: 320px) {

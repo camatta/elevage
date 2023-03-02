@@ -1,4 +1,4 @@
-@media (max-width: 428px) {
+@media (max-width: 575px) {
 
   .buttonLink :global(.vtex-button) {
     position: relative;
