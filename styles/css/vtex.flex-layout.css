@@ -89,7 +89,7 @@
   -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     transform: translate(0, -50%);
-} 
+}
 
 @media (max-width: 1230px) {
   .flexRow--box-deal {
@@ -434,3 +434,10 @@
   }
 }
 
+
+@media (max-width: 575px) {
+  .flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement),
+  .flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
+  height: auto;
+  }
+}
