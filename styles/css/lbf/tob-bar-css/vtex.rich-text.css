@@ -5,3 +5,10 @@
 .wrapper--last-item .paragraph--text-topbar .link--last-item {
   color: #fff;
 }
+.link--deals {
+  color: #202020;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    text-decoration: inherit;
+}
