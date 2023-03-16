@@ -151,6 +151,7 @@
       "category-menu#mob",
       "search-bar",
       "login#login-mobile",
+      "flex-layout.col#wishlist-menu-wrapper-mobile",
       "minicart.v2"
     ],
     "props": {
@@ -158,6 +159,22 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#wishlist-menu-wrapper-mobile": {
+    "children": [
+      "rich-text#wishlist-menu-icon-mobile"
+    ],
+    "props": {
+      "blockClass": "wishlist-menu-wrapper"
+    }
+  },
+
+  "rich-text#wishlist-menu-icon-mobile": {
+    "props":{
+      "text": "[![Lista de Desejos](/assets/vtex/assets-builder/dcorp.store-theme/7.0.30/imgs/categoria/heart___7a8e060….png)](/wishlist)",
+      "blockClass": "wishlist-icon-menu"
     }
   },
 

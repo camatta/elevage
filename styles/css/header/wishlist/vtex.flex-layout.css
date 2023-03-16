@@ -5,3 +5,9 @@
   position: relative;
   right: 1.3rem;
 }
+
+@media (max-width: 768px) {
+  .flexCol--wishlist-menu-wrapper {
+    right: 0;
+  }
+}
