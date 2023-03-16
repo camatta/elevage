@@ -60,6 +60,7 @@
       "search-bar",
       "flex-layout.col#spacer",
       "login",
+      "flex-layout.col#wishlist-menu-wrapper",
       "minicart.v2"
     ]
   },
@@ -68,6 +69,28 @@
     "children":["lele-contact"]
   },
 
+  "flex-layout.col#wishlist-menu-wrapper": {
+    "children": [
+      "rich-text#wishlist-menu-icon", "rich-text#wishlist-menu-text"
+    ],
+    "props": {
+      "blockClass": "wishlist-menu-wrapper"
+    }
+  },
+
+  "rich-text#wishlist-menu-icon": {
+    "props":{
+      "text": "[![Lista de Desejos](/assets/vtex/assets-builder/dcorp.store-theme/7.0.30/imgs/categoria/heart___7a8e060….png)](/wishlist)",
+      "blockClass": "wishlist-icon-menu"
+    }
+  },
+
+  "rich-text#wishlist-menu-text": {
+    "props":{
+      "text": "[Lista de **Desejos**](/wishlist)",
+      "blockClass": "wishlist-text-menu"
+    }
+  },
 
   // MENU
 

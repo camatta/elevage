@@ -1,0 +1,22 @@
+.link--wishlist-text-menu {
+  color: #fff;
+  line-height: 1.2;
+  font-size: .875rem;
+  text-decoration: unset;
+}
+
+.paragraph--wishlist-text-menu {
+  line-height: 1.2;
+  font-size: .875rem;
+}
+
+.image--wishlist-icon-menu {
+  margin-right: 12px;
+  position: relative;
+  top: 2px;
+  filter: brightness(4.5);
+}
+
+.container--wishlist-text-menu {
+  width: 70px;
+}

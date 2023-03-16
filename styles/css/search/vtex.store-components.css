@@ -29,10 +29,18 @@
 :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button ):focus{
   background-color: transparent;
 }
-:global(.vtex-wish-list-1-x-wishlistIcon){
+:global(.vtex-wish-list-1-x-outline){
   background: url('assets/imgs/categoria/heart.png') center;
   background-size: contain;
   width: 27px;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-wish-list-1-x-fill){
+  background: url('assets/imgs/categoria/heart-fill.png') center;
+  background-size: contain;
+  width: 27px;
+  background-repeat: no-repeat;
 }
 
 /* filter mobile */
