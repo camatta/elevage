@@ -1,0 +1,11 @@
+.headingLevel2--category-description {
+  font-size: 22px;
+}
+.headingLevel3--category-description {
+  font-size: 20px;
+}
+.list--category-description {
+  padding: 0;
+  list-style: none;
+  text-align: initial;
+}
