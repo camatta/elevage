@@ -86,7 +86,7 @@
 }
 
 .departmentList .itemContainer--department:nth-child(3n) .itemContainer--category::before {
-  background-image: url(assets/imgs/categoria/banner-laminas-de-tosa.jpg);
+  background-image: url(assets/imgs/categoria/banner-laminas-de-tosa-novo.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(4n) .itemContainer--category::before {
@@ -94,7 +94,7 @@
 }
 
 .departmentList .itemContainer--department:nth-child(5n) .itemContainer--category::before {
-  background-image: url(assets/imgs/categoria/banner-tesouras-de-tosa.jpg);
+  background-image: url(assets/imgs/categoria/banner-tesouras-de-tosa-novo.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(6n) .itemContainer--category::before {
