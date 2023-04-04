@@ -90,5 +90,21 @@
     min-height: 110px;
   }
 
+  .flexRow--cep-produto :global(.vtex-address-form__postalCode) {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+
+  .flexRow--cep-produto :global(.vtex-store-components-3-x-shippingContainer) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .flexRow--cep-produto :global(.vtex-input-prefix__group) { 
+    width: 100% !important;
+  }
+
 }
 

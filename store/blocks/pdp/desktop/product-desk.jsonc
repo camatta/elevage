@@ -202,6 +202,7 @@
       "product-gifts",
       "flex-layout.row#cashback",
       "flex-layout.row#buy-button",
+      "flex-layout.row#frete-produto",
       "availability-subscriber",
       "flex-layout.row#description"
     ]
@@ -282,6 +283,15 @@
       "flex-layout.row#availability"
     ]
   },
+
+  "flex-layout.row#frete-produto": {
+    "props": {
+      "blockClass": "cep-produto"
+    },
+    "children": ["shipping-simulator"]
+  },
+
+
 
   "flex-layout.row#availability": {
     "props": {

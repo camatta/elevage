@@ -38,9 +38,9 @@
 
   "flex-layout.col#minicart-footer": {
     "children": [
+      "flex-layout.row#frete-produto",
       "minicart-freeshipping-bar-v2",
       "flex-layout.col#coupon-subtotal",
-      "minicart-summary",
       "experimental__visibility-layout#cashback-wrapper",
       "minicart-checkout-button"
     ]
