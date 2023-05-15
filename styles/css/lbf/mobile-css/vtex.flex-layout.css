@@ -19,6 +19,7 @@
   }
   .flexRowContent--social-elevage {
     display: flex;
+    justify-content: center;
   }
   .flexRow--logo__mobile,
   .flexRow--main-header-mobile{

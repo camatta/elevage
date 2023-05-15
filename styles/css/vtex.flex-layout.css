@@ -330,6 +330,7 @@
 .flexRow--wrapper-newsletter {
   background-color: #2EA8BC;
   padding: 3rem 0;
+  margin-bottom: 2rem;
 }
 
 .flexRowContent--wrapper-newsletter {
@@ -350,12 +351,18 @@
   height: auto !important;
 }
 
+.flexRow--social-elevage {
+  border-top: 1px solid #eee;
+  width: 75%;
+  padding-top: 2rem;
+}
+
 /* Copyrights */
 
 .flexRow--copyrights {
   max-width: 1200px;
   margin: auto;
-  border-top: 1px solid #979797;
+  border-top: 1px solid #eee;
   margin-top: 2rem;
 }
 

@@ -399,7 +399,8 @@
       "menu-item#whats",
       "menu-item#whatstel",
       "menu-item#email",
-      "menu-item#emailurl"
+      "menu-item#emailurl",
+      "flex-layout.row#redes-sociais"
     ]
   },
   "menu-item#atendimento": {

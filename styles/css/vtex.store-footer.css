@@ -13,13 +13,3 @@
 .footerLayout {
   position: relative;
 }
-
-.footerLayout::before {
-  content: '';
-  width: 56%;
-  background-color: #EEEEEEB8;
-  position: absolute;
-  bottom: 3.1rem;
-  left: 0;
-  height: 47%;
-}

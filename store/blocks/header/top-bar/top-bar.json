@@ -5,15 +5,36 @@
   },
 
   "flex-layout.row#top-bar": {
+    "children": ["slider-layout#topbar-desk"],
+    "props": {
+      "blockClass": "wrapper-topbar"
+    }
+
+  },
+
+  "slider-layout#topbar-desk": {
     "children": [
       "experimental__visibility-layout#col-frete-bar",
       "experimental__visibility-layout#col-parcelamento-bar",
       "experimental__visibility-layout#col-rastreio-bar"
     ],
     "props": {
-      "blockClass": "wrapper-topbar"
-    }
+      "blockClass": "wrapper-topbar",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
 
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
   },
 
   "experimental__visibility-layout#col-frete-bar": {

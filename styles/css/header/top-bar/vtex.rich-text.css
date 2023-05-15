@@ -5,8 +5,9 @@
 }
 
 .paragraph--text-topbar {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 0.5;
+  padding: 0.3rem 0;
 }
 
 /* .paragraph--text-topbar::after {

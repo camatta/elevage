@@ -43,14 +43,14 @@
     padding: 1rem 0;
   }
 
-  .flexCol--col-selos-footer:first-child {
-    margin-bottom: 2rem;
-  }
-
   .flexRow--copyrights {
     max-width: 100%;
     border-top: 0;
     margin-top: 0rem;
+  }
+
+  .flexRow--social-elevage  {
+    margin: auto;
   }
 
   .flexColChild--minicart-qty-selector :global(.vtex-product-list-0-x-quantitySelectorWrapper) {

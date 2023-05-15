@@ -130,7 +130,7 @@
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
-      "flex-layout.row#top-barmobile"
+      "experimental__visibility-layout#top-bar"
     ]
   },
   "sticky-layout#1-mobile": {
@@ -209,5 +209,7 @@
       "iconLabel": "Entrar/Cadastrar"
     }
   }
+
+  
 
 }

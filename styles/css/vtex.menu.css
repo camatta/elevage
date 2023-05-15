@@ -1,9 +1,9 @@
 /* Footer */
 
 .styledLinkContent--title-footer {
-  font-size: 14px;
-  color: #181616;
-  font-weight: 600;
+  font-size: 16px;
+  color: #2EA8BC;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -26,5 +26,5 @@
 }
 
 .menuContainer--coluna-contato .styledLinkContent--item-menu-footer {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }

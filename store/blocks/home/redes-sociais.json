@@ -3,11 +3,9 @@
     "children": ["flex-layout.col#pinterest", "flex-layout.col#youtube", "flex-layout.col#twitter", "flex-layout.col#insta", "flex-layout.col#facebook" ],
     "props": {
       "textPosition": "center",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
         "preventHorizontalStretch": true,
         "preventVerticalStretch": true,
-        "paddingTop": 6,
+        "paddingTop": 0,
         "paddingBottom": 4,
         "blockClass": "social-elevage"
     }
