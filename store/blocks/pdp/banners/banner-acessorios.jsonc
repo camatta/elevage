@@ -1,0 +1,39 @@
+{
+    "condition-layout.product#banner-acessorios": {
+        "title": "Banner Peças e acessórios",
+        "props": {
+            "conditions": [
+                {
+                    "subject": "categoryTree",
+                    "arguments": {
+                        "id": "8"
+                    }
+                }
+            ],
+            "Then": "flex-layout.row#banner-acessorios"
+        }
+    },
+    "flex-layout.row#banner-acessorios": {
+        "props": {
+            "marginTop": 7
+        },
+        "children": [
+            "flex-layout.col#banner-acessorios"
+        ]
+    },
+    "flex-layout.col#banner-acessorios": {
+        "props": {
+            "blockClass": "product-banner-content"
+        },
+        "children": ["image#banner-acessorios"]
+    },
+    "image#banner-acessorios": {
+        "props": {
+            "src": "assets/imgs/pdp/banner_produto.png",
+            "alt": "Lâminas de tosa",
+            "link": {
+                "url": "/maquinas-de-tosa"
+            }
+        }
+    }
+}

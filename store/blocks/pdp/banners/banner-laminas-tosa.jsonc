@@ -1,0 +1,39 @@
+{
+    "condition-layout.product#banner-laminas": {
+        "title": "Banner Lâminas de tosa",
+        "props": {
+            "conditions": [
+                {
+                    "subject": "categoryTree",
+                    "arguments": {
+                        "id": "19"
+                    }
+                }
+            ],
+            "Then": "flex-layout.row#banner-laminas"
+        }
+    },
+    "flex-layout.row#banner-laminas": {
+        "props": {
+            "marginTop": 7
+        },
+        "children": [
+            "flex-layout.col#banner-laminas"
+        ]
+    },
+    "flex-layout.col#banner-laminas": {
+        "props": {
+            "blockClass": "product-banner-content"
+        },
+        "children": ["image#banner-laminas"]
+    },
+    "image#banner-laminas": {
+        "props": {
+            "src": "assets/imgs/pdp/banner_produto.png",
+            "alt": "Lâminas de tosa",
+            "link": {
+                "url": "/laminas-de-tosa"
+            }
+        }
+    }
+}

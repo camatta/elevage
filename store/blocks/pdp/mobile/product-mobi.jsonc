@@ -1,7 +1,12 @@
 {
   "responsive-layout.mobile#pdp": {
     "children": [
-      "condition-layout.product#banner",
+      "condition-layout.product#banner-maquinas",
+      "condition-layout.product#banner-laminas",
+      "condition-layout.product#banner-secadores",
+      "condition-layout.product#banner-tesouras",
+      "condition-layout.product#banner-acessorios",
+      "condition-layout.product#banner-banho",
       "condition-layout.product#availability-mobi",
       "product-additional-images",
       "list-context.product-list#list-pdp-related"

@@ -1,0 +1,39 @@
+{
+    "condition-layout.product#banner-tesouras": {
+        "title": "Banner Tesouras para tosa",
+        "props": {
+            "conditions": [
+                {
+                    "subject": "categoryTree",
+                    "arguments": {
+                        "id": "9"
+                    }
+                }
+            ],
+            "Then": "flex-layout.row#banner-tesouras"
+        }
+    },
+    "flex-layout.row#banner-tesouras": {
+        "props": {
+            "marginTop": 7
+        },
+        "children": [
+            "flex-layout.col#banner-tesouras"
+        ]
+    },
+    "flex-layout.col#banner-tesouras": {
+        "props": {
+            "blockClass": "product-banner-content"
+        },
+        "children": ["image#banner-tesouras"]
+    },
+    "image#banner-tesouras": {
+        "props": {
+            "src": "assets/imgs/pdp/banner_produto.png",
+            "alt": "Lâminas de tosa",
+            "link": {
+                "url": "/maquinas-de-tosa"
+            }
+        }
+    }
+}
