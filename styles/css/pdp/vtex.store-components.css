@@ -75,3 +75,25 @@
 .productImage--pdp:nth-child(n + 7) {
     display: none;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cep-produto) .shippingNoMessage {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cep-produto) .shippingNoMessage {
+    color: #fff;
+    font-size: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cep-produto) .shippingNoMessage::after {
+    content: 'Este produto deverá ter seu frete cotado diretamente com nosso time de vendas. Entre em contato conosco através do botão de WhatsApp localizado abaixo na página.';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+    color: #202020;
+    font-size: 14px;
+}
