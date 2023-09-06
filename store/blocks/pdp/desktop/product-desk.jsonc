@@ -296,6 +296,11 @@
     "children": ["shipping-simulator"]
   },
 
+  "shipping-simulator": {
+    "props": {
+      "pricingMode": "grouped"
+    }
+  },
 
 
   "flex-layout.row#availability": {
