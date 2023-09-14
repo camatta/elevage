@@ -219,7 +219,17 @@
       "flex-layout.row#product-name",
       "product-identifier.product",
       "sku-selector",
-      "flex-layout.row#availability"
+      "flex-layout.row#availability",
+      "flex-layout.col#sliding-down-mob-indisponivel"
+    ]
+  },
+
+  "flex-layout.col#sliding-down-mob-indisponivel": {
+    "props": {
+      "blockClass": "sliding-down"
+    },
+    "children": [
+      "flex-layout.row#description"
     ]
   },
 
