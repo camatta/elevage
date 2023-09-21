@@ -6,7 +6,7 @@
     "children": ["flex-layout.row#newsletter", "flex-layout.row#footer-4", "flex-layout.row#copyrights"]
   },
   "flex-layout.row#footer-4" : {
-    "children": ["vtex.menu@2.x:menu#footer-coluna2", "vtex.menu@2.x:menu#footer-coluna1", "vtex.menu@2.x:menu#footer-coluna3", "flex-layout.col#pagamento" ],
+    "children": ["vtex.menu@2.x:menu#footer-coluna2", "vtex.menu@2.x:menu#footer-coluna1", "flex-layout.col#coluna-3", "flex-layout.col#pagamento" ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,

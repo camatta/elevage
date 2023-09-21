@@ -386,6 +386,12 @@
     }
   },
 
+  "flex-layout.col#coluna-3": {
+    "children":[
+      "vtex.menu@2.x:menu#footer-coluna3",
+      "flex-layout.row#redes-sociais"
+    ]
+  },
 
   "vtex.menu@2.x:menu#footer-coluna3": {
     "props": {
@@ -399,8 +405,7 @@
       "menu-item#whats",
       "menu-item#whatstel",
       "menu-item#email",
-      "menu-item#emailurl",
-      "flex-layout.row#redes-sociais"
+      "menu-item#emailurl"
     ]
   },
   "menu-item#atendimento": {
