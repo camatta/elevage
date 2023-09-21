@@ -32,7 +32,7 @@
   line-height: 1.2;
 }
 
-.minicartIconContainer::before {
+/* .minicartIconContainer::before {
   content: 'Carrinho';
   position: absolute;
   right: 0;
@@ -41,7 +41,7 @@
   color: #fff;
   text-transform: initial;
   font-weight: 500;
-}
+} */
 
 .minicartIconContainer .minicartQuantityBadge {
   top: -0.7rem;

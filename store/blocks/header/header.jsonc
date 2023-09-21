@@ -86,7 +86,7 @@
 
   "rich-text#wishlist-menu-text": {
     "props":{
-      "text": "[Lista de **Desejos**](/wishlist)",
+      "text": "[Lista de Desejos](/wishlist)",
       "blockClass": "wishlist-text-menu"
     }
   },

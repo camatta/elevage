@@ -7,7 +7,7 @@ const Lele = () => {
     <>
       <div className="lele-contact">
         <div className="img-lele">
-          <a href="https://api.whatsapp.com/send?l=pt_br&phone=554591264954" target="_blank">
+          <a href="https://api.whatsapp.com/send?l=pt_br&phone=554591264954" target="_blank" aria-label="Entre em contato">
             <svg id="Componente_39_223" data-name="Componente 39 – 223" xmlns="http://www.w3.org/2000/svg" width="120" height="125" viewBox="0 0 120 125">
               <defs>
                 <clipPath id="clip-path">

@@ -22,13 +22,13 @@
   background-position: center;
 }
 
-.label::after {
+/* .label::after {
   content: 'Perfil';
   position: absolute;
   left: 0;
   bottom: 0;
   font-weight: 500;
-}
+} */
 
 .container :global(.vtex-button:hover),
 .container :global(.vtex-button:focus) {
