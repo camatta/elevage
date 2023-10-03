@@ -3,7 +3,7 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
-    "children": ["flex-layout.row#newsletter", "flex-layout.row#footer-4", "flex-layout.row#copyrights"]
+    "children": ["flex-layout.row#footer-4", "flex-layout.row#copyrights"]
   },
   "flex-layout.row#footer-4" : {
     "children": ["vtex.menu@2.x:menu#footer-coluna2", "vtex.menu@2.x:menu#footer-coluna1", "flex-layout.col#coluna-3", "flex-layout.col#pagamento" ],
@@ -89,6 +89,6 @@
    }
   },
   "footer-layout.mobile": {
-    "children": ["flex-layout.row#newsletter", "flex-layout.row#footer-4", "flex-layout.row#copyrights"]
+    "children": ["flex-layout.row#footer-4", "flex-layout.row#copyrights"]
   }
 }
