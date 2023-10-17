@@ -357,6 +357,11 @@
   padding-top: 2rem;
 }
 
+.flexColChild--mosaico-left-novo,
+.flexColChild--mosaico-right-novo {
+  line-height: 0;
+}
+
 /* Copyrights */
 
 .flexRow--copyrights {

@@ -188,6 +188,81 @@
     }
   },
 
+  "experimental__visibility-layout#mosaico-meio-novo": {
+    "title": "Mosaico Meio - 5 Banners",
+    "children": [
+      "flex-layout.row#mosaico-meio-novo"
+    ]
+  },
+
+  "flex-layout.row#mosaico-meio-novo": {
+    "title": "Mosaico Meio - 5 Banners",
+    "children": [
+      "flex-layout.col#left-mosaico-novo",
+      "flex-layout.col#right-mosaico-novo"
+    ],
+    "props": {
+      "blockClass": "mosaico-meio-novo"
+    }
+  },
+
+  
+  "flex-layout.col#left-mosaico-novo": {
+    "children": [
+      "image#banner1-left-mosaico-novo",
+      "image#banner2-left-mosaico-novo"
+    ],
+    "props": {
+      "blockClass": "mosaico-left-novo"
+    }
+  },
+
+  "flex-layout.col#right-mosaico-novo": {
+    "children": [
+      "image#banner1-right-mosaico-novo",
+      "image#banner2-right-mosaico-novo",
+      "image#banner3-right-mosaico-novo"
+    ],
+    "props": {
+      "blockClass": "mosaico-right-novo"
+    }
+  },
+
+  "image#banner1-left-mosaico-novo": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-novo-1.png",
+      "blockClass": "left-mosaico-novo"
+    }
+  },
+
+  "image#banner2-left-mosaico-novo": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-novo-2.png",
+      "blockClass": "left-mosaico-novo"
+    }
+  },
+
+  "image#banner1-right-mosaico-novo": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-novo-3.png",
+      "blockClass": "right-mosaico-novo"
+    }
+  },
+
+  "image#banner2-right-mosaico-novo": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-novo-4.png",
+      "blockClass": "right-mosaico-novo"
+    }
+  },
+
+  "image#banner3-right-mosaico-novo": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-novo-5.png",
+      "blockClass": "right-mosaico-novo"
+    }
+  },  
+
   "experimental__visibility-layout#mosaico-meio-modelo2": {
     "title": "Mosaico Meio - Modelo 2",
     "children": [

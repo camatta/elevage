@@ -123,6 +123,19 @@
   margin-bottom: 1.5rem;
 }
 
+.imageElement--left-mosaico-novo,
+.imageElement--right-mosaico-novo {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+    .imageElement--left-mosaico-novo,
+    .imageElement--right-mosaico-novo {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 500px) {
   .logoLink {
     width: auto;
