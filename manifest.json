@@ -1,7 +1,7 @@
 {
   "vendor": "dcorp",
   "name": "store-theme",
-  "version": "7.0.88",
+  "version": "7.0.89",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
