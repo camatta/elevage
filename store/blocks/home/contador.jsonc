@@ -1,0 +1,37 @@
+{
+  "experimental__visibility-layout#contador": {
+    "title": "Contador de Promoções",
+    "children": ["flex-layout.row#contador"]
+  },
+
+  "flex-layout.row#contador": {
+    "title": "Linha Contador de Promoções",
+    "children": [
+      "contador"
+    ]
+  },
+
+  "contador": {
+    "title": "Infos Contador",
+    "props": {
+      "textoPromocao": "O site todo em",
+      "textoPromocaoDestaque": "Promoção",
+      "textoBotao": "Confira as",
+      "textoBotaoDestaque": "Ofertas",
+      "textoContador": "As ofertas vão acabar em",
+      "dataFinal": "",
+      "linkPromocao": "/laminas-de-tosa"
+    },
+    "children": [
+      "image#bg-contador"
+    ]
+  },
+
+  "image#bg-contador": {
+    "title": "Background Contador",
+    "props": {
+      "src": "assets/imgs/contador/bg-contador.png"
+    }
+  }
+
+}

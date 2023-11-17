@@ -41,5 +41,9 @@
 
     "helmet-rd": {
         "component": "HelmetRD"
+    },
+    "contador": {
+        "component": "Contador",
+        "composition": "children"
     }
 }
