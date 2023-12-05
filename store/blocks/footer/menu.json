@@ -218,7 +218,7 @@
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "quem-somos",
+        "href": "/quem-somos",
         "noFollow": false,
         "tagTitle": "Quem Somos",
         "text": "Quem Somos"
