@@ -1,8 +1,8 @@
 .wrapper--sticky-header {
-  background-color: #000;
+  background-color: #2EA8BC;
 }
 
 .wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-  background-color: #000 !important;
+  background-color: #2EA8BC !important;
   padding: 0rem 2rem 0px !important;
 }

@@ -25,7 +25,7 @@
 }
 
 .flexRow--main-header {
-  background-color: #000;
+  background-color: #2EA8BC;
   padding: 0.4rem 2rem;
   padding-bottom: 0;
 }
@@ -38,7 +38,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0 0.5rem;
-  background-color: #000;
+  background-color: #2EA8BC;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -54,7 +54,7 @@
 /* Categorias */
 
 .flexRow--wrapper__categories {
-  background-color: #000;
+  background-color: #2EA8BC;
 }
 
 .flexRow--deals {

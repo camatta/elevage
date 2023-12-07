@@ -55,7 +55,7 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: #000;
+    background: #2EA8BC;
     border: 0;
     box-shadow: unset;
   }
